@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Minim id do minim est mollit duis laborum id reprehenderit minim. Quis aliqua reprehenderit fugiat."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
