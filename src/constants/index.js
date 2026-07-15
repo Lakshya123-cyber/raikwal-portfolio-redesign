@@ -87,6 +87,15 @@ const posts = [
     statusColor: "green",
     link: "https://github.com/Lakshya123-cyber/easycode.git",
   },
+  {
+    id: 3,
+    date: "Jan 10, 2026",
+    title: "Valkyrie AI",
+    image: "/images/valkyrie.png",
+    status: "Production Ready",
+    statusColor: "green",
+    link: "https://github.com/Lakshya123-cyber/valkyrie-agent.git",
+  },
 ];
 
 const techStack = [
@@ -234,9 +243,51 @@ const WORK_LOCATION = {
       ],
     },
 
-    // ▶ Project 3
     {
       id: 7,
+      name: "Valkyrie AI",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-50 left-80",
+      windowPosition: "top-[46vh] right-17",
+      children: [
+        {
+          id: 1,
+          name: "Valkyrie_AI.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "Valkyrie AI is an autonomous software engineering agent built to tackle complex development tasks from start to finish.",
+            "Rather than simply answering prompts, it understands your codebase, plans its own approach, executes actions, and collaborates with specialized AI agents to deliver real results.",
+            "With long-term memory, intelligent context management, MCP integrations, and self-improving workflows, Valkyrie AI transforms AI from an assistant into a true engineering partner.",
+          ],
+        },
+        {
+          id: 2,
+          name: "valkyrie.git",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/Lakshya123-cyber/valkyrie-agent",
+          position: "top-10 right-20",
+        },
+        {
+          id: 3,
+          name: "valkyrie.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/project-3.png",
+        },
+      ],
+    },
+
+    // ▶ Project 3
+    {
+      id: 8,
       name: "AI Workflow Platform",
       icon: "/images/folder.png",
       kind: "folder",
@@ -273,7 +324,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          imageUrl: "/images/project-4.png",
         },
       ],
     },
