@@ -83,7 +83,7 @@ const posts = [
     date: "May 15, 2026",
     title: "EasyCode",
     image: "/images/easycode.png",
-    status: "Active Development",
+    status: "Production Ready",
     statusColor: "green",
     link: "https://github.com/Lakshya123-cyber/easycode.git",
   },
