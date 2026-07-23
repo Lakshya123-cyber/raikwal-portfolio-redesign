@@ -71,12 +71,12 @@ const dockApps = [
 const posts = [
   {
     id: 1,
-    date: "July 14, 2026",
-    title: "AI Workflow Builder",
-    image: "/images/workflow.png",
+    date: "July 23, 2026",
+    title: "Moose AI IDE",
+    image: "/images/moose.png",
     status: "Coming Soon",
     statusColor: "yellow",
-    link: "https://github.com/Lakshya123-cyber",
+    link: "https://github.com/Lakshya123-cyber/moose.git",
   },
   {
     id: 2,
@@ -288,7 +288,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 8,
-      name: "AI Workflow Platform",
+      name: "Moose AI IDE",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -296,30 +296,30 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI_Workflow_Platform.txt",
+          name: "moose_AI_IDE.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The AgentFlow project is a full-stack AI workflow automation platform currently in development.",
-            "It will enable users to visually create AI-powered workflows by connecting LLMs, APIs, browser automation, and custom nodes in a collaborative canvas.",
-            "Think of it as an AI-native workflow builder inspired by tools like n8n, built for developers and teams who want to automate complex tasks.",
-            "Coming Soon! Building with TypeScript, Next.js, Trigger.dev, Liveblocks, Browserbase, PostgreSQL, and modern cloud infrastructure.",
+            "Moose is an AI-native cloud development environment built for modern software engineering.",
+            "It combines a powerful browser-based IDE with autonomous AI agents capable of understanding projects, editing code, executing tasks, and accelerating development.",
+            "Designed for developers who want the speed of modern AI coding tools without sacrificing flexibility, collaboration, or control.",
+            "Coming Soon! Building with TypeScript, Next.js, Convex, Clerk, CodeMirror, WebContainers, AI SDK, and modern cloud infrastructure.",
           ],
         },
         {
           id: 2,
-          name: "ai-workflow-platform.git",
+          name: "moose_ai_ide.git",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://github.com/Lakshya123-cyber",
+          href: "https://github.com/Lakshya123-cyber/moose.git",
           position: "top-10 right-20",
         },
         {
           id: 3,
-          name: "ai-workflow.png",
+          name: "moose.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
